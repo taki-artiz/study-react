@@ -46,6 +46,6 @@ export function Footer(){
         </a>
       ))}
 
-      </footer>
+    </footer>
   );
 }

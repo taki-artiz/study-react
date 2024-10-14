@@ -1,0 +1,4 @@
+{
+    // インポートを絶対パスに
+    "javascript.preferences.importModuleSpecifier": "non-relative"
+}

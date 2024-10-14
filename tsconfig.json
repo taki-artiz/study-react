@@ -22,5 +22,6 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Footer.tsxx","app/components/Links.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "types": ["tailwindcss/tailwind-config"]
 }
