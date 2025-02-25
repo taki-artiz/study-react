@@ -1,7 +1,10 @@
 "use client";
 import Image from "next/image";
-import {Links} from "./Links";
-import {Headline} from "./Headline";
+// import {Links} from "app/components/Links";
+import {Headline} from "app/components/Headline";
+import { Links } from "./Links";
+import { useEffect } from "react";
+
 
 type Foo = {
     title?: string;
@@ -16,6 +19,9 @@ type Foo = {
   };
 
 export function Main(foo: Foo) {
+
+
+
   return (
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Headline

@@ -8,7 +8,7 @@ export function Header(){
         <Link href="./">
             Index
         </Link>
-        <Link href="./about/">
+        <Link href="about/">
             About
         </Link>
       </header>
