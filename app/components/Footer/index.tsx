@@ -27,9 +27,9 @@ export function Footer(){
   return(
     <footer className={`${styles.testStyle} row-start-3 flex gap-6 flex-wrap items-center justify-center`}>
 
-      {ITEMS.map((item) => (
+      {ITEMS.map((item, index) => (
         <a
-          key={item.href}
+          key={index}
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href={item.href}
           target="_blank"
